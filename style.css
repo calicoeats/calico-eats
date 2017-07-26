@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #00FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     position: relative;
@@ -128,7 +128,7 @@ home section
 #home {
   background-size: cover;
   background-position: center;
-  color: #000000;
+  color: #00FFFFFF;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -172,7 +172,7 @@ home section
 	border: 4px solid #ffffff;
   	border-radius: 0;
 	background: transparent;
-  	color: #ffffff;
+  	color: #00FFFFFF;
 }
 
 /* ==========================================================================
