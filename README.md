@@ -1,1 +1,1 @@
-# calico-eats
+# calicoeats
