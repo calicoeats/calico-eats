@@ -1,0 +1,179 @@
+<html>
+  
+<head>
+<style>
+.btn-group {
+    margin: auto;
+    }
+.btn-group button {
+    background-color: #ffffff; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #93f0b0;
+}
+/*drop button----------------
+.dropbtn {
+    background-color: #ffffff; /* Green background */
+    border: 1px solid white; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #93f0b0
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {background-color: #f1f1f1}
+.show {display:block;}
+}
+</style>
+</head>
+
+<body>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+
+ 
+
+
+<body>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Dawning of a New Day' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Dawning of a New Day';font-size: 22px;
+}
+</style>
+</head>
+   </body>
+
+<body>
+<h1 style="text-align:center">Calico Eats</h1>
+
+<div class="btn-group">
+    <button style="width:256px">Home</button>
+   <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn" style="width:256px">Explore</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">by area</a>
+    <a href="#about">by category</a>
+    </div>
+  <button style="width:256px">About</button>
+       <button style="width:256px">Contact</button>
+ 
+</div>
+
+<center>
+<title><font size="9"> Explore: By Category </font></title>
+<h1 style="text align:center"><font size="9"> Explore: By Category </font></h1>
+</center>
+  
+<html>
+<head>
+<body>
+
+<style>
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+td, th {
+    border: 0px solid #FFFFFF;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><font size="8">American</font></td>
+    <td><font size="8">Breakfast</font></td>
+  </tr>
+  <tr>
+    <td><font size="8">Asian</font></td>
+    <td><font size="8">Dessert</font></td>
+  </tr>
+  <tr>
+    <td><font size="8">Eclectic</font></td>
+    <td><font size="8">Dinner</font></td>
+  </tr>
+  <tr>
+    <td><font size="8">French</font></td>
+    <td><font size="8">Drinks</font></td>
+  </tr>
+  <tr>
+    <td><font size="8">Italian</font></td>
+    <td><font size="8">Lunch</font></td>
+  </tr>
+  <tr>
+    <td><font size="8">Mexican</font></td>
+    <td><font size="8">Snacks</font></td>
+  </tr>
+</table>
+
+</body>
+</html>
