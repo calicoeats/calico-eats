@@ -1,15 +1,24 @@
-<html>
-  
+<!DOCTYPE html>
+	<title>Calico Eats</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="icon.png">
+	<style type="css" src="style.css"></style> 
+
+
+<center>
+	
+	
+<!-- Navigation Bar -->
 <head>
+	
+
 <style>
-.btn-group {
-    margin: auto;
-    }
 .btn-group button {
     background-color: #ffffff; /* Green background */
     border: 1px solid white; /* Green border */
     color: black; /* White text */
-    padding: 10px 24px; /* Some padding */
+    padding: 10px 112px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
 }
@@ -103,20 +112,61 @@ body {
    </body>
 
 <body>
-<h1 style="text-align:center">Calico Eats</h1>
+<h1 style="text-align:center"/>Calico Eats</h1>
 
 <div class="btn-group">
-    <button style="width:256px">Home</button>
+    <button>Home</button>
    <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn" style="width:256px">Explore</button>
+<button onclick="myFunction()" class="dropbtn" >Explore</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="#byarea">by area</a>
-    <a href="#bycategory">by category</a>
+    <a href="byarea.html">by area</a>
+    <a href="bycategory.html">by category</a>
     </div>
-  <button style="width:256px">About</button>
-       <button style="width:256px">Contact</button>
+  <button>About</button>
+  <button>Contact</button>
+	   
+	   
+<!-- Nav Bar 2 -->
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Calico Eats</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="home.html" class="smoothScroll">HOME</a></li>
+				<li><a href="#explore" class="smoothScroll">EXPLORE</a></li>
+				<li><a href="about.html" class="smoothScroll">ABOUT</a></li>
+				<li><a href="contact.html" class="smoothScroll">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+	   
+<!-- home section -->
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h3>mini description here</h3>
+				<h1>Calico Eats</h1>
+				<hr>
+				<a href="#about" class="smoothScroll btn btn-danger">What we do</a>
+				<a href="#contact" class="smoothScroll btn btn-default">Talk to us</a>
+			</div>
+		</div>
+	</div>		
+</section>	  
  
 </div>
+
+</body>
+    </center>
 
 <center>
 <title> Explore: By Category </title>
