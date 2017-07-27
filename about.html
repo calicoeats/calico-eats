@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+	<title>Calico Eats</title>
 
+<head>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="icon" type="image/png" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="slideshow.js"></script>
+
+<center>
+	
+	
+<!-- Navigation Bar -->
+
+<style>
+.btn-group button {
+    background-color: #ffffff; 
+    border: 1px solid white; 
+    color: black; 
+    padding: 10px 112px; 
+    cursor: pointer; 
+    float: left; 
+}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #93f0b0;
+}
+/*drop button----------------*/
+.dropbtn {
+    background-color: #ffffff; 
+    border: 1px solid white; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #93f0b0
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {background-color: #f1f1f1}
+.show {display:block;}
+}
+</style>
+</head>
+
+<body>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+
+ 
+
+
+<body>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Dawning of a New Day' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Dawning of a New Day';font-size: 22px;
+}
+</style>
+</head>
+   </body>
+
+<body>
+<h1 style="text-align:center"/>Calico Eats</h1>
+
+<div class="btn-group">
+  <div class="dropdown"style="width:100%">
+<button onclick="myFunction()" class="dropbtn"style="width:33%" >Explore</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="byarea.html">by area</a>
+    <a href="bycategory.html">by category</a>
+    </div>
+  <button style="width:33%"><a href="about.html">About</a></button>
+  <button style="width:33%"><a href="contact.html">Contact</a></button>
+</div>
