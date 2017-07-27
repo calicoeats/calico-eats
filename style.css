@@ -15,7 +15,10 @@ h1, h2, h3, h4 {
   font-weight: bold;
   letter-spacing: 2px;
 }
-
+.logo {
+	font-family: 'Dawning of a New Day';
+	font-size: 22px;
+}
 .heading {
   font-size: 20px;
 }
