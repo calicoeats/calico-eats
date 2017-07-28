@@ -9,6 +9,8 @@ body {
 html, body {
      width: 100%;
      overflow-x: hidden;
+	font-family: 'Arial' 
+
   }
 
 h1, h2, h3, h4 {
@@ -33,7 +35,9 @@ h1, h2, h3, h4 {
 
 p {
   line-height: 28px;
+font-family: 'Arial'
   font-size: 15px;
+
 }
 
 a {
