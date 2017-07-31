@@ -13,14 +13,17 @@
 <!-- Navigation Bar -->
 
 <style>
-.btn-group button {
-    background-color: #ffffff; 
-    border: 1px solid white; 
-    color: black; 
-    padding: 10px 112px; 
-    cursor: pointer; 
-    float: left; 
-    font-size: 17px;
+a:link, a:visited btn-group button{
+    background-color: #93f0b0;
+    color: #000000;
+    padding: 10px 112px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+	border:1px solid white;
+    font-family:"Arial", sans-serif
+    
 }
 	
 /* Clear floats (clearfix hack) */
@@ -32,6 +35,11 @@
 .btn-group button:not(:last-child) {
     border-right: none; /* Prevent double borders */
 }
+a:hover, a:active btn-group button{
+    background-color: #93f0b0;
+}
+	<a href="about.html" target="_blank">About</a>
+	<a href="contact.html" target="_blank">Contact</a>
 /* Add a background color on hover */
 .btn-group button:hover {
     background-color: #93f0b0;
@@ -121,17 +129,7 @@ body {
 <body>
 <h1 class="logo" style="text-align:center" "font-size:35px";/>Calico Eats</h1>
 	
-<div class="btn-group">
-  <div class="dropdown"style="width: 900px; float: center; margin: auto">
-    <button onclick="myFunction()" class="dropbtn" style="min-width:300px" "font-size:20px background-color="#93f0b0" " class="title">Explore</button>
-    <div id="myDropdown" class="dropdown-content" style="min-width:300px">
-      <a href="byarea.html">by area</a>
-      <a href="bycategory.html">by category</a>
-    </div>
-    <button style="min-width:300px" "font-size:12px"><a class="title" href= "about.html"  a:hover {color=#93f0b0} style="color:000000">About</a></button>
-    <button style="min-width:300px" "font-size:12px"><a class="title" background-color="#93f0b0" href="contact.html" style="color:000000">Contact</a></button>
-  </div>
-</div>
+
 		
 	 
 
